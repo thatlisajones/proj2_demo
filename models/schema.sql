@@ -3,22 +3,6 @@ CREATE DATABASE feelings_db;
 
 USE feelings_db;
 
-CREATE TABLE feeling_groups(
-  group_id INT AUTO_INCREMENT NOT NULL,
-  group_name VARCHAR(45) NOT NULL
-  group_color VARCHAR(45) NOT NULL,
-  group_value INT(5) NOT NULL,
-    primary key(group_id)
-);
-
-INSERT INTO feeling_groups (group_name, group_color, group_value)
-VALUES  ("Joy", "#008000", 100),
-  ("Peace", "#800080", 200),
-  ("Confidence", "#0000FF", 300),
-  ("Sadness", "#FFA500", 400),
-  ("Anger", "#FF0000", 500),
-  ("Fear", "#FFFF00", 600);
-
 CREATE TABLE feelings(
   feeling_id INT AUTO_INCREMENT NOT NULL,
   feeling_group VARCHAR(45) NOT NULL

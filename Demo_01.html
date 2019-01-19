@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+
+    <title>Basic User Interface Suggestion</title>
+</head>
+
+<body>
+    <h1 class="view-1" style="text-align: left">Step 1: What do you feel most strongly right now?</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm" style="color:red;border-color:black"><i class="far fa-angry fa-7x"></i>Anger</div>
+            <div class="col-sm" style="color:green"><i class="far fa-laugh fa-7x"></i>Joy</div>
+            <div class="col-sm" style="color:orange"><i class="far fa-sad-tear fa-7x"></i>Sadness</div>
+        </div>
+        <div class="row">
+            <div class="col-sm" style="color:purple"><i class="far fa-smile fa-7x"></i>Peace</div>
+            <div class="col-sm" style="color:gold"><i class="far fa-frown-open fa-7x"></i>
+                Fear</div>
+            <div class="col-sm" style="color:blue"><i class="far fa-grin-wink fa-7x"></i>Confidence</div>
+        </div>
+        </div>
+        <br>
+        <h3 class="view-1" style="text-align: left">(In this example, user selects anger. Based on this selection, the next screen will be six emoji representing the first six words from the "Anger" word array.)</h3>
+    <br>
+    <br>
+    <h1 class="view-1" style="text-align: left">Step 2: Which emoji best matches your mood?</h1>
+    <h3>(The user will see only the emojis, not the associated words.)</h3>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F623</p><p class="label" style="font-size: 12 pt">(Frustrated)</p></div>
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F624</p><p class="label" style="font-size: 12 pt">(Resentful)</p></div>
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F622</p><p class="label" style="font-size: 12 pt">(Hurt)</p></div>
+        </div>
+        <div class="row">
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F928</p><p class="label" style="font-size: 12 pt">(Critical)</p></div>
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F612</p><p class="label" style="font-size: 12 pt">(Spiteful)</p></div>
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F92C</p><p class="label" style="font-size: 12 pt">(Outraged)</p></div>
+        </div>
+    </div>
+    <br>
+    <h3 class="view-1" style="text-align: left">(The user's choice will be stored as Input 1, and the app will display Step 3.)</h3>
+<br>
+<br>
+
+    <h1 class="view-1" style="text-align: left">Step 3: Which emoji best expresses your feeling?</h1>
+    <h2>(The user will see six emoji representing the remaining words from the "Anger" word list.)</h2>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F914</p><p class="label" style="font-size: 12 pt">(Skeptical)</p></div>
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x2639</p><p class="label" style="font-size: 12 pt">(Bitter)</p></div>
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F616</p><p class="label" style="font-size: 12 pt">(Irritated)</p></div>
+        </div>
+        <div class="row">
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F644</p><p class="label" style="font-size: 12 pt">(Dismissive)</p></div>
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F636</p><p class="label" style="font-size: 12 pt">(Distant)</p></div>
+            <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F620</p><p class="label" style="font-size: 12 pt">(Jealous)</p></div>
+        </div>
+    </div>
+    <br>
+    <h3 class="view-1" style="text-align: left">(The user's choice will be stored as Input 2, and the app will display Step 4.)</h3>
+<br>
+<br>
+<h1 class="view-1" style="text-align: left">Step 4: Which emoji best fits you right now?</h1>
+<h2>(The user will see six randomized emoji representing words from any/all word categories.)</h2>
+<div class="container">
+    
+    <div class="row">
+        <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F62C</p><p class="label" style="font-size: 12 pt">(Anxious)</p></div>
+        <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F629</p><p class="label" style="font-size: 12 pt">(Tired)</p></div>
+        <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F340</p><p class="label" style="font-size: 12 pt">(Lucky)</p></div>
+    </div>
+    <div class="row">
+        <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F49C</p><p class="label" style="font-size: 12 pt">(Generous)</p></div>
+        <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F615</p><p class="label" style="font-size: 12 pt">(Confused)</p></div>
+        <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F92A</p><p class="label" style="font-size: 12 pt">(Delighted)</p></div>
+    </div>
+</div>
+<br>
+<h3 class="view-1" style="text-align: left">(The user's choice will be stored as Input 3, and the app will display Step 5.)</h3>
+<br>
+<br>
+<h1 class="view-1" style="text-align: left">Step 5: Rank your emoji on a scale from 1 to 3.</h1>
+<h2>(The user will see the three emoji selected in previous steps. The user will assign a value to each emoji.)</h2>
+<div class="container">
+    
+    <div class="row">
+        <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F92C</p><p class="label" style="font-size: 12 pt">(Outraged)</p></div>
+        <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F616</p><p class="label" style="font-size: 12 pt">(Irritated)</p></div>
+        <div class="col-sm"><p class="emoji" style="font-size: 80px">&#x1F629</p><p class="label" style="font-size: 12 pt">(Tired)</p></div>
+    </div>
+    <div class="row">
+        <div class="col-sm"><p class="rank" style="font-size: 14 pt">a little | some | a lot</p></div>
+        <div class="col-sm"><p class="rank" style="font-size: 14 pt">a little | some | a lot</p></div>
+        <div class="col-sm"><p class="rank" style="font-size: 14 pt">a little | some | a lot</p></div>
+    </div>
+</div>
+<br>
+<h3 class="view-1" style="text-align: left">(The user's ranking will determine the size of the slice of the pie chart related to the emoji/feeling/word - one third each, one-half-and-two-quarters, etc.)</h3>
+<br>
+<br>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
